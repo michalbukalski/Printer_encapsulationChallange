@@ -7,5 +7,8 @@ public class Main {
 
         int pagesPrinted = printer.printPages(101);
         System.out.printf("Current Job Pages: %d, Printer Total: %d %n", pagesPrinted, printer.getPagesPrinted());
+
+        pagesPrinted = printer.printPages(10);
+        System.out.printf("Current Job Pages: %d, Printer Total: %d %n", pagesPrinted, printer.getPagesPrinted());
     }
 }
